@@ -1,0 +1,14 @@
+.About{
+    display: flex;
+    flex-direction: column;
+    color: black;
+
+    margin-left:10%;
+    margin-right:10%;
+    font-size:large;
+    font-family: Comfortaa;
+}
+p {
+    margin-left:300px;
+    margin-right:300px;
+}

@@ -1,0 +1,54 @@
+.projects{
+    display: flex;
+    flex-direction: column;
+    color: black;
+
+    margin-left:10%;
+    margin-right:10%;
+    font-size:large;
+    font-family: Comfortaa;
+}
+
+.projects-wrapper{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: center;
+
+}
+
+/* .center-line{
+    background-color: black;
+    width: 2px;
+    height: 100%;
+    z-index:1000;
+    position:absolute;
+    padding-left:50%-1px;
+} */
+
+.projects .ant-card{
+    font-family: Comfortaa;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:2%;
+    /* min-width: 200px; /* if cards aren't same size, it messes with centering */
+    /* min-height: 350px; */
+}
+
+.projects .ant-card-head{
+    background-color:#0088FF;
+    color:white;
+}
+
+/* .projects .ant-card-body{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height:100%;
+} */
+
+.projects .ant-card-cover img{
+    max-width: 200px;
+}

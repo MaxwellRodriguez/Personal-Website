@@ -1,0 +1,38 @@
+.home{
+    display:flex;
+    justify-content: center;
+}
+
+/* for centering check */
+/* .center-line{
+    background-color: black;
+    width: 2px;
+    height: 100%;
+    z-index:1000;
+    position:absolute;
+    padding-left:50%-1px;
+} */
+
+.tab-bar{
+    z-index:10;
+    min-width: 100%;
+}
+
+.tabs .ant-tabs-nav{
+    background-color:white;
+    border-bottom: 1px solid gray ;
+    position:sticky;
+    top: 0;
+    justify-content: flex-start;
+}
+
+.tab-label {
+    font-family: Comfortaa;
+    padding:5px;
+    margin-left:5px;
+    margin-right:5px;
+}
+
+.ant-tabs-content-holder{
+    z-index: -1;
+}
