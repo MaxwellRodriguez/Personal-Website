@@ -1,5 +1,4 @@
 import React from 'react';
-import gigamax from '../assets/gigamax.png';
 import './Navbar.css';
 
 function Navbar() {

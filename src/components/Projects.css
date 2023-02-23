@@ -1,20 +1,32 @@
+/* KNOWN ISSUES */
+
+/*  1. mouse mimic (#moustest) along with client.Y doesn't account for page scrolling
+    2. any screenshot solution would need to account for page resizing
+*/
+
 .projects{
     display: flex;
     flex-direction: column;
     color: black;
-
+    height: 100%;
+    /* width: 100%; */
     margin-left:10%;
     margin-right:10%;
     font-size:large;
     font-family: Comfortaa;
+    
+    /* Slide Functionality
+    position:absolute;
+    left: 0px;
+    top: 0px; */
 }
 
 .projects-wrapper{
     display:flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    align-content: center;
-
+    padding-bottom: 50px;
+    position: relative;
 }
 
 /* .center-line{
@@ -31,24 +43,53 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding:2%;
-    /* min-width: 200px; /* if cards aren't same size, it messes with centering */
+    padding:20px;
+    margin-bottom:50px;
+    width: 250px; /* if cards aren't same size, it messes with centering */
     /* min-height: 350px; */
 }
 
-.projects .ant-card-head{
+/* .projects .ant-card-head{
     background-color:#0088FF;
     color:white;
-}
-
-/* .projects .ant-card-body{
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height:100%;
 } */
 
+.projects .ant-card-body{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    height:100%;
+}
+
+.projects .ant-card-cover {
+    width:  200px;
+    height: 200px;
+    box-shadow: 0 0 20px 5px gray;
+    /* border:11px solid black; */
+    border-radius: 50%;
+}
+
 .projects .ant-card-cover img{
-    max-width: 200px;
+    width: 200px;
+    height: 200px;
+    object-fit:cover;
+    border-radius: 50%;
+}
+
+#ZombeeLogoImg{
+    /* width:180px; */
+    object-fit: contain;
+}
+
+#mousetest{
+    width: 10px;
+    height:15px;
+    position:absolute;
+    border-radius: 0%;
+}
+
+.coverWrapper{
+    height:100%;
+    width:100%;
+    position:relative;
 }
