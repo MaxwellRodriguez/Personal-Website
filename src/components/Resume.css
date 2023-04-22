@@ -1,3 +1,19 @@
-.Resume{
-    font-family: Comfortaa;
+.resume{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size:large;
+    padding-bottom:2%;
+}
+
+#resumeDoc{
+    border:none;
+    overflow-y: hidden;
+    left: 335px; top: 11px; height: 1180px; width: 826px;
+    box-shadow: 0 0 20px 3px rgba(90, 90, 90, 0.363);
+}
+
+a{
+    margin:20px;
 }

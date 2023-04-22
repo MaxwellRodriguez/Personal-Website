@@ -5,10 +5,12 @@
 
     margin-left:10%;
     margin-right:10%;
+    padding-bottom: 3%;
     font-size:large;
     font-family: Comfortaa;
 }
-p {
+.About p {
     margin-left:300px;
     margin-right:300px;
+    text-align: left;
 }

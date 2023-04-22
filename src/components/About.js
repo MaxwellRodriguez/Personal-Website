@@ -11,7 +11,7 @@ function About() {
                 If I have some spare time, I love playing games with my friends and walking my dog. Games mean a lot to me, and they’re my favorite way of getting to know people. Feel free to challenge me to a game of chess any time.
             </p>
             <p>
-                If I have a lot of spare time, my hobbies are cosplay, making art, and game development. Whether it’s creating a cool costume or a neat game idea, it’s really satisfying when one of my ideas comes to life.
+                If I have more spare time, my hobbies are cosplay, making art, and game development. Whether it’s creating a cool costume or a neat game concept, it’s really satisfying when one of my ideas comes to life.
             </p>
         </div>
     );

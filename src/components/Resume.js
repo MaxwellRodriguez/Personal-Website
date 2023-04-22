@@ -1,121 +1,39 @@
 import React from 'react';
 import './Resume.css';
-function Resume() {
+
+import {Button} from "antd";
+import {DownloadOutlined} from "@ant-design/icons"
+import resumePDF from "../assets/Max Rodríguez Resume.pdf"
+
+function Resume() { 
     return(
-        <div className="Resume">
-            <h2>About Me</h2>
-            <p>
-                I recently graduated from the University of Florida with a Bachelors in Computer Science-Digital Arts and Sciences. I had a great time learning everything from data structures to design principles, but I think I’ll miss my a cappella group the most!
-            </p>
-            <p>
-                If I have some spare time, I love playing games with my friends and walking my dog. Games mean a lot to me, and they’re my favorite way of getting to know people. Feel free to challenge me to a game of chess any time.
-            </p>
-            <p>
-                If I have a lot of spare time, my hobbies are cosplay, making art, and game development. Whether it’s creating a cool costume or a neat game idea, it’s really satisfying when one of my ideas comes to life.
-            </p>
-            <h2>About Me</h2>
-            <p>
-                I recently graduated from the University of Florida with a Bachelors in Computer Science-Digital Arts and Sciences. I had a great time learning everything from data structures to design principles, but I think I’ll miss my a cappella group the most!
-            </p>
-            <p>
-                If I have some spare time, I love playing games with my friends and walking my dog. Games mean a lot to me, and they’re my favorite way of getting to know people. Feel free to challenge me to a game of chess any time.
-            </p>
-            <p>
-                If I have a lot of spare time, my hobbies are cosplay, making art, and game development. Whether it’s creating a cool costume or a neat game idea, it’s really satisfying when one of my ideas comes to life.
-            </p><h2>About Me</h2>
-            <p>
-                I recently graduated from the University of Florida with a Bachelors in Computer Science-Digital Arts and Sciences. I had a great time learning everything from data structures to design principles, but I think I’ll miss my a cappella group the most!
-            </p>
-            <p>
-                If I have some spare time, I love playing games with my friends and walking my dog. Games mean a lot to me, and they’re my favorite way of getting to know people. Feel free to challenge me to a game of chess any time.
-            </p>
-            <p>
-                If I have a lot of spare time, my hobbies are cosplay, making art, and game development. Whether it’s creating a cool costume or a neat game idea, it’s really satisfying when one of my ideas comes to life.
-            </p>
-            <p>
-                I recently graduated from the University of Florida with a Bachelors in Computer Science-Digital Arts and Sciences. I had a great time learning everything from data structures to design principles, but I think I’ll miss my a cappella group the most!
-            </p>
-            <p>
-                If I have some spare time, I love playing games with my friends and walking my dog. Games mean a lot to me, and they’re my favorite way of getting to know people. Feel free to challenge me to a game of chess any time.
-            </p>
-            <p>
-                If I have a lot of spare time, my hobbies are cosplay, making art, and game development. Whether it’s creating a cool costume or a neat game idea, it’s really satisfying when one of my ideas comes to life.
-            </p>
-            <h2>About Me</h2>
-            <p>
-                I recently graduated from the University of Florida with a Bachelors in Computer Science-Digital Arts and Sciences. I had a great time learning everything from data structures to design principles, but I think I’ll miss my a cappella group the most!
-            </p>
-            <p>
-                If I have some spare time, I love playing games with my friends and walking my dog. Games mean a lot to me, and they’re my favorite way of getting to know people. Feel free to challenge me to a game of chess any time.
-            </p>
-            <p>
-                If I have a lot of spare time, my hobbies are cosplay, making art, and game development. Whether it’s creating a cool costume or a neat game idea, it’s really satisfying when one of my ideas comes to life.
-            </p><h2>About Me</h2>
-            <p>
-                I recently graduated from the University of Florida with a Bachelors in Computer Science-Digital Arts and Sciences. I had a great time learning everything from data structures to design principles, but I think I’ll miss my a cappella group the most!
-            </p>
-            <p>
-                If I have some spare time, I love playing games with my friends and walking my dog. Games mean a lot to me, and they’re my favorite way of getting to know people. Feel free to challenge me to a game of chess any time.
-            </p>
-            <p>
-                If I have a lot of spare time, my hobbies are cosplay, making art, and game development. Whether it’s creating a cool costume or a neat game idea, it’s really satisfying when one of my ideas comes to life.
-            </p><p>
-                I recently graduated from the University of Florida with a Bachelors in Computer Science-Digital Arts and Sciences. I had a great time learning everything from data structures to design principles, but I think I’ll miss my a cappella group the most!
-            </p>
-            <p>
-                If I have some spare time, I love playing games with my friends and walking my dog. Games mean a lot to me, and they’re my favorite way of getting to know people. Feel free to challenge me to a game of chess any time.
-            </p>
-            <p>
-                If I have a lot of spare time, my hobbies are cosplay, making art, and game development. Whether it’s creating a cool costume or a neat game idea, it’s really satisfying when one of my ideas comes to life.
-            </p>
-            <h2>About Me</h2>
-            <p>
-                I recently graduated from the University of Florida with a Bachelors in Computer Science-Digital Arts and Sciences. I had a great time learning everything from data structures to design principles, but I think I’ll miss my a cappella group the most!
-            </p>
-            <p>
-                If I have some spare time, I love playing games with my friends and walking my dog. Games mean a lot to me, and they’re my favorite way of getting to know people. Feel free to challenge me to a game of chess any time.
-            </p>
-            <p>
-                If I have a lot of spare time, my hobbies are cosplay, making art, and game development. Whether it’s creating a cool costume or a neat game idea, it’s really satisfying when one of my ideas comes to life.
-            </p><h2>About Me</h2>
-            <p>
-                I recently graduated from the University of Florida with a Bachelors in Computer Science-Digital Arts and Sciences. I had a great time learning everything from data structures to design principles, but I think I’ll miss my a cappella group the most!
-            </p>
-            <p>
-                If I have some spare time, I love playing games with my friends and walking my dog. Games mean a lot to me, and they’re my favorite way of getting to know people. Feel free to challenge me to a game of chess any time.
-            </p>
-            <p>
-                If I have a lot of spare time, my hobbies are cosplay, making art, and game development. Whether it’s creating a cool costume or a neat game idea, it’s really satisfying when one of my ideas comes to life.
-            </p><p>
-                I recently graduated from the University of Florida with a Bachelors in Computer Science-Digital Arts and Sciences. I had a great time learning everything from data structures to design principles, but I think I’ll miss my a cappella group the most!
-            </p>
-            <p>
-                If I have some spare time, I love playing games with my friends and walking my dog. Games mean a lot to me, and they’re my favorite way of getting to know people. Feel free to challenge me to a game of chess any time.
-            </p>
-            <p>
-                If I have a lot of spare time, my hobbies are cosplay, making art, and game development. Whether it’s creating a cool costume or a neat game idea, it’s really satisfying when one of my ideas comes to life.
-            </p>
-            <h2>About Me</h2>
-            <p>
-                I recently graduated from the University of Florida with a Bachelors in Computer Science-Digital Arts and Sciences. I had a great time learning everything from data structures to design principles, but I think I’ll miss my a cappella group the most!
-            </p>
-            <p>
-                If I have some spare time, I love playing games with my friends and walking my dog. Games mean a lot to me, and they’re my favorite way of getting to know people. Feel free to challenge me to a game of chess any time.
-            </p>
-            <p>
-                If I have a lot of spare time, my hobbies are cosplay, making art, and game development. Whether it’s creating a cool costume or a neat game idea, it’s really satisfying when one of my ideas comes to life.
-            </p><h2>About Me</h2>
-            <p>
-                I recently graduated from the University of Florida with a Bachelors in Computer Science-Digital Arts and Sciences. I had a great time learning everything from data structures to design principles, but I think I’ll miss my a cappella group the most!
-            </p>
-            <p>
-                If I have some spare time, I love playing games with my friends and walking my dog. Games mean a lot to me, and they’re my favorite way of getting to know people. Feel free to challenge me to a game of chess any time.
-            </p>
-            <p>
-                If I have a lot of spare time, my hobbies are cosplay, making art, and game development. Whether it’s creating a cool costume or a neat game idea, it’s really satisfying when one of my ideas comes to life.
-            </p>
+        <div className="resume">
+            <h2>My Resume</h2>
+            <Button 
+                type="primary" 
+                shape="round" 
+                icon={<DownloadOutlined />} 
+                href={resumePDF}
+                target="_blank"
+            >
+                Download
+            </Button>
+            <iframe 
+                id="resumeDoc" 
+                title="ResumeDoc" 
+                scrolling='no' //it's deprecated, but the alternative solution doesn't work
+                src="https://docs.google.com/document/d/e/2PACX-1vQ5vkVAoaaslrdbrXgOSzXliuT5OruOl9m0imNK1O2gdMRVvLR4YPRNXPz4jd1H-JJygJqFXbxTWGl0/pub?embedded=true"
+            ></iframe>
         </div>
     );
 }
 
+
+// window.onload = function(){
+//     const iframe = document.getElementById("resumeDoc");
+//     iframe.onload = function(){
+//         console.log("HELLO???");
+//         iframe.style.height = iframe.contentWindow.document.body.scrollHeight + "px";
+//     }
+// }
 export default Resume

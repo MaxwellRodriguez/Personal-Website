@@ -1,7 +1,9 @@
 /* KNOWN ISSUES */
 
-/*  1. mouse mimic (#moustest) along with client.Y doesn't account for page scrolling
+/*  1. mouse mimic (#moustest) along with client.Y doesn't account for page scrolling, maybe cursor distance from the screenshot instead?
     2. any screenshot solution would need to account for page resizing
+    3. iframe instead of screenshot?
+    4. project descriptions aren't aligned with each other
 */
 
 .projects{
@@ -47,6 +49,11 @@
     margin-bottom:50px;
     width: 250px; /* if cards aren't same size, it messes with centering */
     /* min-height: 350px; */
+    transition: transform 400ms ease,
+                box-shadow 0.2s, 
+                border-color 0.2s, 
+                width 400ms ease,
+                height 400ms ease;
 }
 
 /* .projects .ant-card-head{
@@ -63,10 +70,13 @@
 
 .projects .ant-card-cover {
     width:  200px;
-    height: 200px;
-    box-shadow: 0 0 20px 5px gray;
-    /* border:11px solid black; */
+    min-height: 200px; /* has to be min-height or art portfolio shadow height shrinks */
+    box-shadow: 0 0 20px 5px rgba(128, 128, 128, 0.39);
     border-radius: 50%;
+    display: flex;
+}
+.projects .ant-card-cover>* {
+    display: flex;
 }
 
 .projects .ant-card-cover img{
@@ -88,8 +98,147 @@
     border-radius: 0%;
 }
 
-.coverWrapper{
+.coverWrapper{ /* for fake website */
     height:100%;
     width:100%;
     position:relative;
+}
+
+
+.art-icon-wrapper{
+    width: 200px;
+    height: 200px;
+    align-items: center;
+    justify-content: center;
+    
+}
+.art-icon-wrapper img{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    transition: transform 400ms ease;
+}
+
+/* .art-icon-wrapper img:nth-child(1){
+    visibility: hidden;
+} */
+.art-icon-wrapper img:nth-child(2){
+    width:  198px;
+    height: 198px;
+    border-left: 5px;
+}
+.art-icon-wrapper img:nth-child(3){
+    width:  198px;
+    height: 198px;
+}
+
+.ant-card:hover .art-icon-wrapper>img:nth-child(1){
+    transform: translate(-5%);
+}
+.ant-card:hover img:nth-child(2){
+    transform: translate(5%) rotate(5deg) scale(101%);
+}
+.ant-card:hover img:nth-child(3){
+    transform: translate(10%) rotate(10deg) scale(101%);
+}
+
+.ant-card:hover {
+    transform: translate(0, -3%);
+}
+
+/* MODALS */
+/* .ant-modal{
+    width: 900px !important;
+} */
+
+.ant-modal-title{
+    padding-bottom: 40px;
+}
+
+.ant-modal-content{
+    font-family: "Comfortaa";
+    align-items: center;
+    text-align: center;
+}
+
+.ant-modal-content p{
+    text-align: left;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.ant-modal-content img{
+    box-shadow: 0 0 20px 5px rgba(90, 90, 90, 0.548);
+}
+.ant-modal-content .ChompItTower{
+    border-radius: 50%;
+    /* box-shadow:none; */
+}
+.ant-modal-content video{
+    box-shadow: 0 0 20px 5px rgba(90, 90, 90, 0.548);
+}
+
+.ant-btn{
+    font-family:"Comfortaa"
+}
+
+/* Art Portfolio */
+
+.gallery{
+    display: flex;
+    padding: 2px;
+    transition: 0.3s;
+}
+
+.galleryColumn{
+    display: flex;
+    flex-direction: column;
+    width:50%;
+}
+
+.galleryImageContainer{
+    position: relative;
+    height:fit-content;
+}
+
+.gallery img {
+    /* display: block; */
+    width:100%;
+    transition: 0.3s;
+    box-shadow: none;
+}
+
+.galleryImageContainer:hover .galleryCaption{
+    opacity: 1;
+}
+
+.galleryCaption{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 25px 15px 15px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    width: 100%; 
+    /* 93 should be 100 */
+    font-size: 16px;
+    color: white;
+    opacity: 0;
+    background: linear-gradient(0deg, rgba(0, 0, 0, .5) 0%, rgba(255, 255 ,255 , 0) 100%);
+    transition: .3s;
+}
+
+.galleryOffset1{
+    height:30px;
+}
+.galleryOffset3{
+    height:10px;
+}
+.galleryOffset4{
+    height:40px;
+}
+
+.ant-image .ant-image-mask{
+    display: none;
 }

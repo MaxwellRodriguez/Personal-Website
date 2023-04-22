@@ -1,0 +1,76 @@
+.splash {
+  width: 100%;
+  height: 500px;
+  background-color: #0088FF;
+  display: flex;
+  flex-direction: column;
+  background-image:url("../assets/gigamax.png");
+  color:white;
+  justify-content: center;
+}
+
+.splash .Title h1{
+    font-size: 72px;
+}
+
+.splash .Title h2{
+    font-size: 48px;
+}
+
+.splash .Title img {
+  width: 70px;
+}
+
+.splash .options-bar {
+  flex: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.splash a {
+  color: white;
+  text-decoration: none;
+  margin: 20px;
+}
+
+.segmented-option{
+    font-family:Comfortaa;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+@media only screen and (max-width: 900px) {
+  .splash .rightSide a {
+    width: 70px;
+  }
+  .splash .leftSide {
+    padding-left: 50px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .splash .rightSide a {
+    display: none;
+  }
+
+  .splash .rightSide {
+    justify-content: flex-end;
+    padding-right: 50px;
+  }
+
+  .splash .rightSide button {
+    display: inherit;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .splash .rightSide button {
+    display: none;
+  }
+
+  .hiddenLinks {
+    display: none;
+  }
+}
