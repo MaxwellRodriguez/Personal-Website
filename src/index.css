@@ -6,6 +6,13 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   overflow-x: hidden;
+
+
+  overflow-y: scroll;
+}
+
+body::-webkit-scrollbar { /* hide scrollbar for Chrome, Safari, Opera */
+  /* display:none; */
 }
 
 code {

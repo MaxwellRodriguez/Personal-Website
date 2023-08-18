@@ -18,9 +18,18 @@ import FALibrary from "../assets/ArtPortfolio/PerspectiveDrawingoftheFineArtsLib
 import FACE from "../assets/ArtPortfolio/FACE.png"
 import ChompItTower from "../assets/ArtPortfolio/ChompItTower.png"
 import HeartKnot from "../assets/ArtPortfolio/CelticHeartKnot.png"
+import SavoyKnot from "../assets/ArtPortfolio/SavoyKnot.png"
+import SquareKnot from "../assets/ArtPortfolio/SquareKnot.png"
+import SimpleKnot from "../assets/ArtPortfolio/SimpleKnot.png"
+import SlipKnot from "../assets/ArtPortfolio/SlipKnot.png"
 import SelfPortrait from "../assets/ArtPortfolio/SelfPortrait.jpg"
 import TandB from "../assets/ArtPortfolio/Tristam&Braken.gif"
-
+import BasilBox from "../assets/ArtPortfolio/BasilinaBox.jpg"
+import Place1 from "../assets/ArtPortfolio/Placelessness1.jpg"
+import Place2 from "../assets/ArtPortfolio/Placelessness2.jpg"
+import Place3 from "../assets/ArtPortfolio/Placelessness3.jpg"
+import StillLife from "../assets/ArtPortfolio/ContourSketchofStillLife.jpg"
+import Swamp from "../assets/ArtPortfolio/TheSwamp.jpg"
 const {Meta} = Card;
 
 function Projects() {
@@ -40,7 +49,7 @@ function Projects() {
             handleMouseMove
           );
         };
-      }, []);
+    }, []);
 
     //Modal Management
     const [maxBotModalOpen, setMaxBotModalOpen] = useState(false);
@@ -218,41 +227,41 @@ function Projects() {
                         <div className="galleryOffset1"></div>
                         <div className="galleryImageContainer">
                             <img className="galleryImage" alt="Persephone's Touch" src={PersephTouch}></img>
-                            <caption class="galleryCaption">Persephone's Touch</caption>
+                            <caption className="galleryCaption">Persephone's Touch</caption>
                         </div>
                         <div className="galleryImageContainer">
                             <img className="galleryImage" alt="Rook" src={Rook}></img>
-                            <caption class="galleryCaption">Rook</caption>
+                            <caption className="galleryCaption">Rook</caption>
                         </div>
                         <div className="galleryImageContainer">
                             <img className="galleryImage" alt="Tristam & Braken Code Sketch" src={TandB}></img>
-                            <caption class="galleryCaption">Tristam & Braken Code Sketch</caption>
+                            <caption className="galleryCaption">Tristam & Braken Code Sketch</caption>
                         </div>
                     </div>
                     <div className="galleryColumn">
                         <div className="galleryImageContainer">
                             <img className="galleryImage" alt="FACE" src={FACE}></img>
-                            <caption class="galleryCaption">FACE</caption>
+                            <caption className="galleryCaption">FACE</caption>
                         </div>
                         
                         <div className="galleryImageContainer">
                             <img className="galleryImage" alt="Self Portrait" src={SelfPortrait}></img>
-                            <caption class="galleryCaption">Self Portrait</caption>
+                            <caption className="galleryCaption">Self Portrait</caption>
                         </div>
                     </div>
                     <div className="galleryColumn">
                         <div className="galleryOffset3"></div>
                         <div className="galleryImageContainer">
                             <img className="galleryImage" alt="Celtic Heart Knot" src={HeartKnot}></img>
-                            <caption class="galleryCaption">Celtic Heart Knot</caption>
+                            <caption className="galleryCaption">Celtic Heart Knot</caption>
                         </div>
                         <div className="galleryImageContainer">
                             <img className="ChompItTower" alt="Chomp It Tower" src={ChompItTower}></img>
-                            <caption class="galleryCaption">Chomp It Tower</caption>
+                            <caption className="galleryCaption">Chomp It Tower</caption>
                         </div>
                         <div className="galleryImageContainer">
                             <img className="galleryImage" alt="Perspective Drawing of the Fine Arts Library" src={FALibrary}></img>
-                            <caption class="galleryCaption">Perspective Drawing of the Fine Arts Library</caption>
+                            <caption className="galleryCaption">Perspective Drawing of the Fine Arts Library</caption>
                         </div>
                         
                     </div>  */}
@@ -263,50 +272,98 @@ function Projects() {
                             }}
                         >
                 <div className="galleryColumn">
-                    <div className="galleryOffset1"></div>
+                    {/* <div className="galleryOffset1"></div> */}
                     
                         <div className="galleryImageContainer">
                             <Image className="galleryImage" alt="Persephone's Touch" src={PersephTouch} mask="none"></Image>
-                            <caption class="galleryCaption">Persephone's Touch</caption>
+                            <caption className="galleryCaption">Persephone's Touch</caption>
                         </div>
                         <div className="galleryImageContainer">
                             <Image className="galleryImage" alt="Rook" src={Rook}></Image>
-                            <caption class="galleryCaption">Rook</caption>
+                            <caption className="galleryCaption">Rook</caption>
                         </div>
-                    
+                        <div className="galleryImageContainer">
+                            <Image className="galleryImage" alt="Contour Sketch of Still Life" src={StillLife}></Image>
+                            <caption className="galleryCaption">Contour Sketch of Still Life</caption>
+                        </div>
                     
                 </div>
                 <div className="galleryColumn">
                     <div className="galleryImageContainer">
                         <Image className="galleryImage" alt="FACE" src={FACE}></Image>
-                        <caption class="galleryCaption">FACE</caption>
+                        <caption className="galleryCaption">FACE</caption>
                     </div>
-                    
                     <div className="galleryImageContainer">
                         <Image className="galleryImage" alt="Self Portrait" src={SelfPortrait}></Image>
-                        <caption class="galleryCaption">Self Portrait</caption>
+                        <caption className="galleryCaption">Self Portrait</caption>
                     </div>
+                    <div className="galleryImageContainer" id="seriesHover">
+                        <div className="galleryHover">
+                            <img className="galleryImage" id="hover2" alt="Placelessness 3 / Placelessness Series" src={Place3}></img>
+                            
+                        </div>
+                        <div className="galleryHover">
+                            <img className="galleryImage" id="hover1" alt="Placelessness 2 / Placelessness Series" src={Place2}></img>
+                        </div>
+                            <Image 
+                                id="main"
+                                className="galleryImage" 
+                                alt="Placelessness Series" 
+                                src={Place1}
+                                ></Image>
+                            <div className="galleryGroup">
+                                <Image className="galleryImage" alt="Placelessness 2" src={Place2}></Image>
+                                <Image className="galleryImage" alt="Placelessness 3" src={Place3}></Image>                               
+                            </div>
+                            <caption className="galleryCaption">Placelessness Series</caption>
+                        </div>
                 </div>
                 <div className="galleryColumn">
-                    <div className="galleryOffset3"></div>
-                    <div className="galleryImageContainer">
-                        <Image className="galleryImage" alt="Celtic Heart Knot" src={HeartKnot}></Image>
-                        <caption class="galleryCaption">Celtic Heart Knot</caption>
-                    </div>
                     <div className="galleryImageContainer">
                         <Image className="ChompItTower" alt="Chomp It Tower" src={ChompItTower}></Image>
-                        <caption class="galleryCaption">Chomp It Tower</caption>
+                        <caption className="galleryCaption">Chomp It Tower</caption>
+                    </div>
+                    <div className="galleryImageContainer" id="seriesHover">
+                        <div className="galleryHover">
+                            <img className="galleryImage" id="hover2" alt="Slip Knot / String Theory Series" src={SlipKnot}></img>
+                            
+                        </div>
+                        <div className="galleryHover">
+                        <   img className="galleryImage" id="hover1" alt="Savoy Knot / String Theory Series" src={SavoyKnot}></img>
+                        </div>
+                        
+                        <Image 
+                            className="galleryImage" 
+                            id="main"
+                            alt="Celtic Heart Knot / String Theory Series" 
+                            src={HeartKnot}
+                        />
+                        <div className="galleryGroup">
+                            <Image className="galleryImage" alt="Savoy Knot" src={SavoyKnot}></Image>
+                            <Image className="galleryImage" alt="Square Knot" src={SquareKnot}></Image>
+                            <Image className="galleryImage" alt="Slip Knot" src={SlipKnot}></Image>
+                            <Image className="galleryImage" alt="Overhand Knot" src={SimpleKnot}></Image>
+                        </div>
+                        <caption className="galleryCaption">String Theory Series</caption>
+                    </div>
+                    <div className="galleryImageContainer">
+                        <Image className="galleryImage" alt="The Swamp" src={Swamp}></Image>
+                        <caption className="galleryCaption">The Swamp</caption>
                     </div>
                 </div>
                 <div className="galleryColumn">
-                    <div className="galleryOffset4"></div>
+                    {/* <div className="galleryOffset4"></div> */}
                     <div className="galleryImageContainer">
                         <Image className="galleryImage" alt="Perspective Drawing of the Fine Arts Library" src={FALibrary}></Image>
-                        <caption class="galleryCaption">Perspective Drawing of the Fine Arts Library</caption>
+                        <caption className="galleryCaption">Perspective Drawing of the Fine Arts Library</caption>
                     </div>
                     <div className="galleryImageContainer">
                         <Image className="galleryImage" alt="Tristam & Braken Code Sketch" src={TandB}></Image>
-                        <caption class="galleryCaption">Tristam & Braken Code Sketch</caption>
+                        <caption className="galleryCaption">Tristam & Braken Code Sketch</caption>
+                    </div>
+                    <div className="galleryImageContainer">
+                            <Image className="galleryImage" alt="This is not my art, but my girlfriend's cat, Basil" src={BasilBox}></Image>
+                            <caption className="galleryCaption">This is not my art, but my girlfriend's cat, Basil</caption>
                     </div>
                 </div>
                 </Image.PreviewGroup>

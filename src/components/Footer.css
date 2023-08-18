@@ -1,0 +1,33 @@
+.linkedinIcon {
+    font-size: 24px;
+    transform: translate(-35%, 50%);
+    /* color: var(--tertiary); */
+}
+.emailIcon {
+    font-size: 24px;
+    transform: translate(0%, 50%);
+    /* color: var(--tertiary); */
+}
+
+.githubIcon {
+    font-size: 24px;
+    transform: translate(-65%, 50%);
+    /* color: var(--tertiary); */
+}
+
+.linkedinIcon:hover, .emailIcon:hover, .githubIcon:hover {
+    /* color: var(--primary); */
+    transform: 200ms;
+}
+
+.iconDiv {
+    text-align: right;
+    transform: translateX(-5%);
+}
+
+.footerRow {
+    width: 100vw;
+    height: 47.6px;
+    /* background-color: var(--highlight);
+    box-shadow: 0px 0px 10px 1px var(--tertiary); */
+}

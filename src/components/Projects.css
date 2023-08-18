@@ -188,6 +188,8 @@
     display: flex;
     padding: 2px;
     transition: 0.3s;
+    overflow-y: scroll;
+    height:800px;
 }
 
 .galleryColumn{
@@ -206,6 +208,7 @@
     width:100%;
     transition: 0.3s;
     box-shadow: none;
+
 }
 
 .galleryImageContainer:hover .galleryCaption{
@@ -229,16 +232,53 @@
     transition: .3s;
 }
 
-.galleryOffset1{
-    height:30px;
-}
-.galleryOffset3{
-    height:10px;
-}
-.galleryOffset4{
-    height:40px;
+.galleryGroup{
+    display: none;
 }
 
 .ant-image .ant-image-mask{
     display: none;
+}
+
+.galleryHover{
+    position:absolute;
+    top: 0px;
+    left: 0px;
+}
+
+#seriesHover:hover #main{
+    animation-name: seriesHoverAnim;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+
+#seriesHover:hover #hover1{
+    animation-name: seriesHoverAnim;
+    animation-duration: 6s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+}
+#seriesHover:hover #hover2{
+    animation-name: seriesHoverAnim;
+    animation-duration: 6s;
+    animation-delay: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes seriesHoverAnim {
+    0%{
+        opacity: 1;
+    }
+    25%{
+        opacity: 1;
+    }
+    33%{
+        opacity: 0;
+    }
+    83%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
 }
