@@ -4,7 +4,7 @@
   background-color: #0088FF;
   display: flex;
   flex-direction: column;
-  background-image:url("../assets/gigamax.png");
+  /* background-image:url("../assets/gigamax.png"); */
   color:white; /* for font color */
   justify-content: center;
 }

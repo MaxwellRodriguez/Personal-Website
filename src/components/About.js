@@ -12,6 +12,7 @@ function About() {
             <Image className="about-image1" alt="Selfie with my Self Portrait" src={PortraitSelfie} mask="none"></Image>
             </div>
             <div className='about-text'>
+                {/* <div className="about-center-line"></div> */}
                 <h2>About Me</h2>
                 <p>
                     I recently graduated from the University of Florida with a Bachelors in Computer Science-Digital Arts and Sciences. I had a great time learning everything from data structures to design principles, but I think I miss my a cappella group the most.
@@ -24,7 +25,15 @@ function About() {
                 </p>
             </div>
             <div>
-            <Image className="about-image2" alt="Moon Brother Cosplay" src={MoonBrother} mask="none"></Image>
+            <Image 
+                className="about-image2" 
+                alt="Moon Brother Cosplay (Let me know if you recognize him!)" 
+                src={MoonBrother} 
+                mask="none"
+                data-aos="fade-up" 
+                data-aos-duration={1200} 
+            >
+            </Image>
             </div>
         </div>
     );

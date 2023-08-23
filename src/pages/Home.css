@@ -127,3 +127,14 @@
 
     transition: 100ms;
 }
+
+.center-line-check{ 
+    /* I was just paranoid about a div being centered */
+    position: fixed;
+    background-color: fuchsia;
+    width:2px;
+    height:100vh;
+    top:0;
+    left:50vw;
+    z-index: 100;
+}

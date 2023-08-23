@@ -12,6 +12,7 @@ const Home = () => {
   return (
     <wrapper className="homeAndFooter">
         <div className="home">
+            {/* <div className="center-line-check"></div> */}
             <div className="tab-bar">
                 <Tabs className="tabs"
                     id="tabs"
