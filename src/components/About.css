@@ -3,79 +3,157 @@
     justify-content: center;
     margin-bottom: 2vh;
 }
+@media screen and (min-width: 0px) {
+    .about-text:before{
+        box-shadow: -20px 0 20px -20px #c5c5c5;
+        content: " ";
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left:-20px;
+        width: 42vw;
+    }
+    .about-text{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        /* padding-left:10%;
+        padding-right:10%; */
+        width:40vw;
+        
+        font-size:large;
+        font-family: Comfortaa;
+        line-height: 25px;
+        /* box-shadow: 0 0 20px 5px rgba(128, 128, 128, 0.39);
+        clip-path: inset(0px -15px 0px 0px); */
+    }
+    .about-text:after{
+        box-shadow: 20px 0px 20px -20px #c5c5c5;
+        content: " ";
+        height: 100%;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: -20px;
+        width: 42vw;
+    }
+    .about-text p {
+        /* padding-left:300px;
+        padding-right:300px; */
+        width:60vw;
+        padding: 1%;
+        text-align: left;
+        
+    }
 
 
-.about-text:before{
-    box-shadow: -20px 0 20px -20px #c5c5c5;
-    content: " ";
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left:-20px;
-    width: 42vw;
+    .About .ant-image{
+        height: 30vh;
+        width: auto;
+        top: 15vh;
+    }
+    .About .ant-image-img{
+        height: 30vh;
+        width: auto;
+    }
+
+    .about-image1{
+        position: relative;
+        padding-right: 50px;
+        /* top: 10vh; */
+    }
+
+    .about-image2{
+        position: relative;
+        padding-left: 50px;
+        /* top: 15vh; */
+    }
+
+    .about-center-line{
+        position: fixed;
+        background-color: cyan;
+        width:3px;
+        height:100%;
+        top:0;
+        left:50%;
+        z-index: 10000;
+    }
+
 }
-.about-text{
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    /* padding-left:10%;
-    padding-right:10%; */
-    width:40vw;
-    
-    font-size:large;
-    font-family: Comfortaa;
-    line-height: 25px;
-    /* box-shadow: 0 0 20px 5px rgba(128, 128, 128, 0.39);
-    clip-path: inset(0px -15px 0px 0px); */
-}
-.about-text:after{
-    box-shadow: 20px 0px 20px -20px #c5c5c5;
-    content: " ";
-    height: 100%;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    right: -20px;
-    width: 42vw;
-}
-.about-text p {
-    /* padding-left:300px;
-    padding-right:300px; */
-    width:40vw;
-    padding: 1%;
-    text-align: left;
-    
-}
+@media screen and (min-width: 1024px) {
+    .about-text:before{
+        box-shadow: -20px 0 20px -20px #c5c5c5;
+        content: " ";
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left:-20px;
+        width: 42vw;
+    }
+    .about-text{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        /* padding-left:10%;
+        padding-right:10%; */
+        width:40vw;
+        
+        font-size:large;
+        font-family: Comfortaa;
+        line-height: 25px;
+        /* box-shadow: 0 0 20px 5px rgba(128, 128, 128, 0.39);
+        clip-path: inset(0px -15px 0px 0px); */
+    }
+    .about-text:after{
+        box-shadow: 20px 0px 20px -20px #c5c5c5;
+        content: " ";
+        height: 100%;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: -20px;
+        width: 42vw;
+    }
+    .about-text p {
+        /* padding-left:300px;
+        padding-right:300px; */
+        width:40vw;
+        padding: 1%;
+        text-align: left;
+        
+    }
 
 
-.About .ant-image{
-    height: 30vh;
-    width: auto;
-    top: 15vh;
-}
-.About .ant-image-img{
-    height: 30vh;
-    width: auto;
-}
+    .About .ant-image{
+        height: 30vh;
+        width: auto;
+        top: 15vh;
+    }
+    .About .ant-image-img{
+        height: 30vh;
+        width: auto;
+    }
 
-.about-image1{
-    position: relative;
-    padding-right: 50px;
-    /* top: 10vh; */
-}
+    .about-image1{
+        position: relative;
+        padding-right: 50px;
+        /* top: 10vh; */
+    }
 
-.about-image2{
-    position: relative;
-    padding-left: 50px;
-    /* top: 15vh; */
-}
+    .about-image2{
+        position: relative;
+        padding-left: 50px;
+        /* top: 15vh; */
+    }
 
-.about-center-line{
-    position: fixed;
-    background-color: cyan;
-    width:3px;
-    height:100%;
-    top:0;
-    left:50%;
-    z-index: 10000;
+    .about-center-line{
+        position: fixed;
+        background-color: cyan;
+        width:3px;
+        height:100%;
+        top:0;
+        left:50%;
+        z-index: 10000;
+    }
+
 }

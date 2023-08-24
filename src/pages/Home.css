@@ -73,7 +73,7 @@
 
 .pageWrapper[data-status="inactiveLeft"]{
 
-    transform: translate(-100%);
+    transform: translate(-100vw);
     /* display: none; */
     /* max-height: min-content; */
     /* height:1px; /* makes each page only as long as its content vs as long as the longest page's content */
@@ -84,7 +84,7 @@
     animation-duration: 500ms;
     animation-timing-function: ease; */
 
-    transform: translate(100%);
+    transform: translate(100vw);
     /* display: none; */
     /* max-height: min-content; */
     overflow-y: hidden; /* WARNING: comment out and pages don't blink out, but leave in and all page lengths become longest page's length */
