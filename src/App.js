@@ -2,18 +2,24 @@ import './App.css';
 import Splash from "./components/Splash";
 import Home from './pages/Home.js';
 import "./assets/fonts/Comfortaa-VariableFont_wght.ttf";
-import {BrowserRouter as Router, Route, Switch} from "react-router-dom";
-
+import {HashRouter as Router, Route} from "react-router-dom";
+import {Helmet} from "react-helmet";
 
 function App() {
   return (
     <div className="App">
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Max's Website</title>
+        <link rel="canonical" href="http://maxrodriguez.dev/" />
+        <meta name="description" content="Max's Personal Site and Portfolio" />
+      </Helmet>
       <Router>
         <Splash/>
-        <Switch>
+        <Router>
           <Route exact path="/" component={Home} />
           {/* <Route render={() => <NotFound toggled={toggled} />} />*/}
-        </Switch>
+        </Router>
         {/* <Footer/> */}
       </Router>
     </div>
