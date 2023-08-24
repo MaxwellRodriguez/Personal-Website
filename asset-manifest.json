@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/personal-website/static/css/main.eb826907.css",
-    "main.js": "/personal-website/static/js/main.e2e29bb6.js",
+    "main.js": "/personal-website/static/js/main.8f145595.js",
     "static/js/787.1dcf878b.chunk.js": "/personal-website/static/js/787.1dcf878b.chunk.js",
     "static/media/ZomBeeDefense_Footage.mp4": "/personal-website/static/media/ZomBeeDefense_Footage.3fa5b6cd87f91a77ed30.mp4",
     "static/media/BasilinaBox.jpg": "/personal-website/static/media/BasilinaBox.ab4dbbea0636cdeec82c.jpg",
@@ -34,11 +34,11 @@
     "static/media/ContourSketchofStillLife.jpg": "/personal-website/static/media/ContourSketchofStillLife.a42e2ebaa34cd603bcf9.jpg",
     "index.html": "/personal-website/index.html",
     "main.eb826907.css.map": "/personal-website/static/css/main.eb826907.css.map",
-    "main.e2e29bb6.js.map": "/personal-website/static/js/main.e2e29bb6.js.map",
+    "main.8f145595.js.map": "/personal-website/static/js/main.8f145595.js.map",
     "787.1dcf878b.chunk.js.map": "/personal-website/static/js/787.1dcf878b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.eb826907.css",
-    "static/js/main.e2e29bb6.js"
+    "static/js/main.8f145595.js"
   ]
 }
