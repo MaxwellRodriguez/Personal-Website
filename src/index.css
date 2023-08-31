@@ -11,6 +11,11 @@ body {
   overflow-y: scroll;
 }
 
+#root{
+  overflow-x: clip; /* overflow hidden that will work with sticky elements */
+  /* overflow-y: scroll; */
+}
+
 body::-webkit-scrollbar { /* hide scrollbar for Chrome, Safari, Opera */
   /* display:none; */
 }

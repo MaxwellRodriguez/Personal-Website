@@ -40,4 +40,10 @@ Stretch goals:
 3. Dark theme
 4. Figure out why page disappears only on switching from right to left page (see WARNING)
 5. Add 404 page
+
+
+Personal reminder how to deploy:
+npm run deploy
+readd domain to custom domain because Github removes it every time
+
 */

@@ -409,7 +409,7 @@ function Projects() {
                 
                 <Meta
                     title="This Website"
-                    description="ur lookin at it"
+                    description="(You're looking at it)"
                 />
             </Card>
             <Card
