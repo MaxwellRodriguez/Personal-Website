@@ -16,9 +16,9 @@ body {
   /* overflow-y: scroll; */
 }
 
-body::-webkit-scrollbar { /* hide scrollbar for Chrome, Safari, Opera */
+/* body::-webkit-scrollbar { hide scrollbar for Chrome, Safari, Opera */
   /* display:none; */
-}
+/* } */
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',

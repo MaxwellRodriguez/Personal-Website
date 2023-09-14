@@ -103,7 +103,7 @@ function Projects() {
                 </Button>
             }
         >
-            <img src={MaxBotDemo} alt="Demo of Max's Helper Bot"></img>
+            <img id="maxBotImage" src={MaxBotDemo} alt="Demo of Max's Helper Bot"></img>
             <p>
                 I made this Discord Bot to do a wide variety of things, none of which are helpful. Whether you want something to yell with you or react to every single message with the same emote, this bot can do it.
             </p>

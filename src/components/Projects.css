@@ -3,7 +3,6 @@
 /*  1. mouse mimic (#moustest) along with client.Y doesn't account for page scrolling, maybe cursor distance from the screenshot instead?
     2. any screenshot solution would need to account for page resizing
     3. iframe instead of screenshot?
-    4. project descriptions aren't aligned with each other
 */
 
 .projects{
@@ -23,6 +22,132 @@
     top: 0px; */
 }
 
+@media screen and (min-width: 0px) {
+    .projects .ant-card-cover img{
+        width: 200px;
+        height: 200px;
+        object-fit:cover;
+        border-radius: 50%;
+    }
+    .projects .ant-card-cover {
+        width:  200px;
+        height: 200px;
+        box-shadow: 0 0 20px 5px rgba(128, 128, 128, 0.39);
+        border-radius: 50%;
+        display: flex;
+    }
+    .projects .ant-card{
+        font-family: Comfortaa;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding:20px;
+        margin-bottom:50px;
+        width: 250px; /* if cards aren't same size, it messes with centering */
+        aspect-ratio: 25/38;
+        height: auto;
+        /* min-height: 350px; */
+        transition: transform 400ms ease,
+                    box-shadow 0.2s, 
+                    border-color 0.2s, 
+                    width 400ms ease,
+                    height 400ms ease;
+    }
+    .art-icon-wrapper img:nth-child(2){
+        width:  198px;
+        height: 198px;
+        border-left: 5px;
+    }
+    .art-icon-wrapper img:nth-child(3){
+        width:  198px;
+        height: 198px;
+    }
+}
+
+@media screen and (min-width: 1251px) {
+    .projects .ant-card-cover img{
+        width: 150px;
+        height: 150px;
+        object-fit:cover;
+        border-radius: 50%;
+    }
+    .projects .ant-card-cover {
+        width:  150px;
+        height: 150px;
+        box-shadow: 0 0 20px 5px rgba(128, 128, 128, 0.39);
+        border-radius: 50%;
+        display: flex;
+    }
+    .projects .ant-card{
+        font-family: Comfortaa;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding:20px;
+        margin-bottom:50px;
+        width: 200px; /* if cards aren't same size, it messes with centering */
+        aspect-ratio: 25/38;
+        height: auto;
+        /* min-height: 350px; */
+        transition: transform 400ms ease,
+                    box-shadow 0.2s, 
+                    border-color 0.2s, 
+                    width 400ms ease,
+                    height 400ms ease;
+    }
+    .art-icon-wrapper img:nth-child(2){
+        width:  148px;
+        height: 148px;
+        border-left: 5px;
+    }
+    .art-icon-wrapper img:nth-child(3){
+        width:  148px;
+        height: 148px;
+    }
+}
+
+@media screen and (min-width: 1563px) {
+    .projects .ant-card-cover img{
+        width: 200px;
+        height: 200px;
+        object-fit:cover;
+        border-radius: 50%;
+    }
+    .projects .ant-card-cover {
+        width:  200px;
+        height: 200px;
+        box-shadow: 0 0 20px 5px rgba(128, 128, 128, 0.39);
+        border-radius: 50%;
+        display: flex;
+    }
+    .projects .ant-card{
+        font-family: Comfortaa;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding:20px;
+        margin-bottom:50px;
+        width: 250px; /* if cards aren't same size, it messes with centering */
+        aspect-ratio: 25/38;
+        height: auto;
+        /* min-height: 350px; */
+        transition: transform 400ms ease,
+                    box-shadow 0.2s, 
+                    border-color 0.2s, 
+                    width 400ms ease,
+                    height 400ms ease;
+    }
+    .art-icon-wrapper img:nth-child(2){
+        width:  198px;
+        height: 198px;
+        border-left: 5px;
+    }
+    .art-icon-wrapper img:nth-child(3){
+        width:  198px;
+        height: 198px;
+    }
+}
+
 .projects-wrapper{
     display:flex;
     flex-wrap: wrap;
@@ -40,23 +165,7 @@
     padding-left:50%-1px;
 } */
 
-.projects .ant-card{
-    font-family: Comfortaa;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding:20px;
-    margin-bottom:50px;
-    width: 250px; /* if cards aren't same size, it messes with centering */
-    aspect-ratio: 25/38;
-    height: auto;
-    /* min-height: 350px; */
-    transition: transform 400ms ease,
-                box-shadow 0.2s, 
-                border-color 0.2s, 
-                width 400ms ease,
-                height 400ms ease;
-}
+
 
 /* .projects .ant-card-head{
     background-color:#0088FF;
@@ -70,23 +179,11 @@
     /* height:100%; /* uncommented: aligned with each other | commented: centered based on height */
 }
 
-.projects .ant-card-cover {
-    width:  200px;
-    min-height: 200px; /* has to be min-height or art portfolio shadow height shrinks */
-    box-shadow: 0 0 20px 5px rgba(128, 128, 128, 0.39);
-    border-radius: 50%;
-    display: flex;
-}
+
 .projects .ant-card-cover>* {
     display: flex;
 }
 
-.projects .ant-card-cover img{
-    width: 200px;
-    height: 200px;
-    object-fit:cover;
-    border-radius: 50%;
-}
 
 #ZombeeLogoImg{
     /* width:180px; */
@@ -108,31 +205,25 @@
 
 
 .art-icon-wrapper{
-    width: 200px;
-    height: 200px;
+    width: 100%;
+    height: 100%;
     align-items: center;
     justify-content: center;
     
 }
 .art-icon-wrapper img{
-    position: absolute;
+    position: absolute; /*absolute means % height/width doesn't work */
     display: flex;
     align-items: center;
+    /* height:200px; /* decided to have it all in .ant-card-cover img instead
+    width:200px; */
     transition: transform 400ms ease;
 }
 
 /* .art-icon-wrapper img:nth-child(1){
     visibility: hidden;
 } */
-.art-icon-wrapper img:nth-child(2){
-    width:  198px;
-    height: 198px;
-    border-left: 5px;
-}
-.art-icon-wrapper img:nth-child(3){
-    width:  198px;
-    height: 198px;
-}
+
 
 .ant-card:hover .art-icon-wrapper>img:nth-child(1){
     transform: translate(-5%);
@@ -149,9 +240,9 @@
 }
 
 /* MODALS */
-.ant-modal{
+/* .ant-modal{ */
     /* width: 900px !important; */
-}
+/* } */
 
 .ant-modal-title{
     padding-bottom: 40px;
@@ -165,12 +256,13 @@
 
 .ant-modal-content p{
     text-align: left;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
-.ant-modal-content img{
+#maxBotImage{
     box-shadow: 0 0 20px 5px rgba(90, 90, 90, 0.548);
+    max-width: 90%;
 }
 .ant-modal-content .ChompItTower{
     border-radius: 50%;
@@ -179,7 +271,9 @@
 .ant-modal-content video{
     box-shadow: 0 0 20px 5px rgba(90, 90, 90, 0.548);
 }
-
+#ZBDFootage{
+    max-width: 90%;
+}
 .ant-btn{
     font-family:"Comfortaa"
 }
