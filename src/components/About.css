@@ -1,6 +1,7 @@
 .About{
     display: flex;
     justify-content: center;
+    align-items: center;
     margin-bottom: 2vh;
 }
 @media screen and (min-width: 0px) {
@@ -50,7 +51,7 @@
     .About .ant-image{
         height: 30vh;
         width: auto;
-        top: 15vh;
+        /* top: 15vh; */
         display: none;
     }
     .About .ant-image-img{
@@ -128,13 +129,13 @@
 
     .About .ant-image{
         display: block;
-        height: 30vh;
+        height: 300px;
         width: auto;
-        top: 15vh;
+        /* top: 15vh; */
     }
     .About .ant-image-img{
         display:block; 
-        height: 30vh;
+        height: 300px;
         width: auto;
     }
 

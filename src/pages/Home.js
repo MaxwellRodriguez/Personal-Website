@@ -22,16 +22,16 @@ const Home = () => {
                     items={[
                         {
                             key: "about",
-                            label: <div className="tab-label" onTabClick={slideToAbout}><UserOutlined />About</div>,
+                            label: <div className="tab-label" onTabClick={slideToAbout}><UserOutlined /><text className="tab-label-text">About</text></div>,
                             // children: <About/>
                         }, 
                         {
                             key: "projects",
-                            label: <div className="tab-label" onTabClick={slideToProjects}><CodeOutlined />Projects</div>,
+                            label: <div className="tab-label" onTabClick={slideToProjects}><CodeOutlined /><text className="tab-label-text">Projects</text></div>,
                             // children: <Projects/>
                         }, {
                             key: "resume",
-                            label: <div className="tab-label" onTabClick={slideToResume}><FileTextOutlined />Resume</div>,
+                            label: <div className="tab-label" onTabClick={slideToResume}><FileTextOutlined /><text className="tab-label-text">Resume</text></div>,
                             // children: <Resume/>
                         }]}
                 />

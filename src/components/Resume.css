@@ -20,11 +20,11 @@
         -webkit-transform: scale(0.25);
         transform: scale(0.25);
 
-        -ms-transform-origin: 100vw 0;
-        -moz-transform-origin: 100vw 0;
-        -o-transform-origin: 100vw 0;
-        -webkit-transform-origin: 100vw 0;
-        transform-origin: 100vw 0;
+        -ms-transform-origin: top center;
+        -moz-transform-origin: top center;
+        -o-transform-origin: top center;
+        -webkit-transform-origin: top center;
+        transform-origin: top center;
     }
 }
 @media screen and (min-width: 1024px) {

@@ -30,9 +30,10 @@ export default App;
 
 
 /* TODO:
-2. Navbar background and styling
-3. About me styling
-6. Scale for mobile devices
+2. fix resume alignment on smaller devices
+3. fix captions taking up whole image size in art portfolio on smaller devices
+4. make embed show website
+
 
 Stretch goals:
 1. Projects expand from bottom of screen instead of modals
