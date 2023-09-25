@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "./static/css/main.7906cb34.css",
+    "main.css": "./static/css/main.e906ec2d.css",
     "main.js": "./static/js/main.29805954.js",
     "static/js/787.1dcf878b.chunk.js": "./static/js/787.1dcf878b.chunk.js",
     "static/media/ZomBeeDefense_Footage.mp4": "./static/media/ZomBeeDefense_Footage.3fa5b6cd87f91a77ed30.mp4",
@@ -33,12 +33,12 @@
     "static/media/Placelessness3.jpg": "./static/media/Placelessness3.589156ed84d896025d7e.jpg",
     "static/media/ContourSketchofStillLife.jpg": "./static/media/ContourSketchofStillLife.a42e2ebaa34cd603bcf9.jpg",
     "index.html": "./index.html",
-    "main.7906cb34.css.map": "./static/css/main.7906cb34.css.map",
+    "main.e906ec2d.css.map": "./static/css/main.e906ec2d.css.map",
     "main.29805954.js.map": "./static/js/main.29805954.js.map",
     "787.1dcf878b.chunk.js.map": "./static/js/787.1dcf878b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7906cb34.css",
+    "static/css/main.e906ec2d.css",
     "static/js/main.29805954.js"
   ]
 }
