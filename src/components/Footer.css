@@ -20,14 +20,28 @@
     transform: 200ms;
 }
 
-.iconDiv {
-    text-align: right;
-    transform: translateX(-5%);
+@media screen and (min-width: 0px) {
+    .iconDiv {
+        text-align: center;
+        transform: 0;
+    }
+    .footer a{
+        margin: 30px;
+    }
 }
-
+@media screen and (min-width: 426px) {
+    .iconDiv {
+        text-align: right;
+        transform: translateX(-5%);
+    }
+    .footer a{
+        margin: 20px;
+    }
+}
 .footerRow {
     width: 100vw;
     height: 47.6px;
     /* background-color: var(--highlight);
     box-shadow: 0px 0px 10px 1px var(--tertiary); */
 }
+

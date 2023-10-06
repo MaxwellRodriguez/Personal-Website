@@ -6,7 +6,8 @@
   display: flex;
   flex-direction: column;
   scroll-snap-type: y mandatory; 
-  /* overflow here breaks sticky footer */
+  /* overflow hidden here breaks sticky footer */
+  overflow-x: clip;
 }
 
 /* width */

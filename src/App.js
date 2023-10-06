@@ -30,9 +30,8 @@ export default App;
 
 
 /* TODO:
-2. fix resume alignment on smaller devices
+2. fix resume extra whitespace on smaller devices
 3. fix captions taking up whole image size in art portfolio on smaller devices
-4. make embed show website
 
 
 Stretch goals:

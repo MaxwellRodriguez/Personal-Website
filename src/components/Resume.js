@@ -18,12 +18,14 @@ function Resume() {
             >
                 Download
             </Button>
-            <iframe 
-                id="resumeDoc" 
-                title="ResumeDoc" 
-                scrolling='no' //it's deprecated, but the alternative solution doesn't work
-                src="https://docs.google.com/document/d/e/2PACX-1vQ5vkVAoaaslrdbrXgOSzXliuT5OruOl9m0imNK1O2gdMRVvLR4YPRNXPz4jd1H-JJygJqFXbxTWGl0/pub?embedded=true"
-            ></iframe>
+            <div className="iframe-wrapper">
+                <iframe 
+                    id="resumeDoc" 
+                    title="ResumeDoc" 
+                    scrolling='no' //it's deprecated, but the alternative solution doesn't work
+                    src="https://docs.google.com/document/d/e/2PACX-1vQ5vkVAoaaslrdbrXgOSzXliuT5OruOl9m0imNK1O2gdMRVvLR4YPRNXPz4jd1H-JJygJqFXbxTWGl0/pub?embedded=true"
+                ></iframe>
+            </div>
         </div>
     );
 }

@@ -20,7 +20,7 @@
         flex-direction: column;
         /* padding-left:10%;
         padding-right:10%; */
-        width:60vw;
+        width:70vw;
         
         font-size:large;
         font-family: Comfortaa;
@@ -41,7 +41,7 @@
     .about-text p {
         /* padding-left:300px;
         padding-right:300px; */
-        width:60vw;
+        width:70vw;
         padding: 1%;
         text-align: left;
         
