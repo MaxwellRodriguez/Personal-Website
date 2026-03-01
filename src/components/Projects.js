@@ -30,6 +30,7 @@ import Place2 from "../assets/ArtPortfolio/Placelessness2.jpg"
 import Place3 from "../assets/ArtPortfolio/Placelessness3.jpg"
 import StillLife from "../assets/ArtPortfolio/ContourSketchofStillLife.jpg"
 import Swamp from "../assets/ArtPortfolio/TheSwamp.jpg"
+import FreakyFrog from "../assets/ArtPortfolio/freakyfrog.jpg"
 const {Meta} = Card;
 
 function Projects() {
@@ -362,8 +363,8 @@ function Projects() {
                         <caption className="galleryCaption">Tristam & Braken Code Sketch</caption>
                     </div>
                     <div className="galleryImageContainer">
-                            <Image className="galleryImage" alt="This is not my art, but my girlfriend's cat, Basil" src={BasilBox}></Image>
-                            <caption className="galleryCaption">This is not my art, but my girlfriend's cat, Basil</caption>
+                            <Image className="galleryImage" alt="A freaky frog plush I made for my girlfriend" src={FreakyFrog}></Image>
+                            <caption className="galleryCaption">A freaky frog plush I made for my girlfriend</caption>
                     </div>
                 </div>
                 </Image.PreviewGroup>
