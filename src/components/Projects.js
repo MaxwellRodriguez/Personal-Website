@@ -30,7 +30,7 @@ import Place2 from "../assets/ArtPortfolio/Placelessness2.jpg"
 import Place3 from "../assets/ArtPortfolio/Placelessness3.jpg"
 import StillLife from "../assets/ArtPortfolio/ContourSketchofStillLife.jpg"
 import Swamp from "../assets/ArtPortfolio/TheSwamp.jpg"
-import FreakyFrog from "../assets/ArtPortfolio/freakyfrog.jpg"
+import FreakyFrog from "../assets/ArtPortfolio/freakyfrog.png"
 const {Meta} = Card;
 
 function Projects() {
@@ -461,6 +461,7 @@ function Projects() {
 //     // card.style.position = "absolute";
 //     // // card.style.transform = "translate(-100%)"
 // }
+
 
 
 
