@@ -1,12 +1,13 @@
 {
   "files": {
     "main.css": "./static/css/main.54252b8b.css",
-    "main.js": "./static/js/main.b953b221.js",
+    "main.js": "./static/js/main.ecb182f5.js",
     "static/js/787.1dcf878b.chunk.js": "./static/js/787.1dcf878b.chunk.js",
     "static/media/ZomBeeDefense_Footage.mp4": "./static/media/ZomBeeDefense_Footage.3fa5b6cd87f91a77ed30.mp4",
     "static/media/BasilinaBox.jpg": "./static/media/BasilinaBox.ab4dbbea0636cdeec82c.jpg",
     "static/media/AdolebitqueLogo.png": "./static/media/AdolebitqueLogo.2d48a047e7ee925a6f67.png",
     "static/media/PerspectiveDrawingoftheFineArtsLibrary2.png": "./static/media/PerspectiveDrawingoftheFineArtsLibrary2.9e05e9ca71c73b6bf941.png",
+    "static/media/freakyfrog.png": "./static/media/freakyfrog.2076e6c1b1e3d1ec78e8.png",
     "static/media/PersephonesTouch.png": "./static/media/PersephonesTouch.329c7125224d229654c6.png",
     "static/media/SelfPortrait.jpg": "./static/media/SelfPortrait.90cd8d9cea086ea7e115.jpg",
     "static/media/rook.png": "./static/media/rook.24568dbc4aa3dea15be4.png",
@@ -24,7 +25,7 @@
     "static/media/Tristam&Braken.gif": "./static/media/Tristam&Braken.78d0c9ea48625d3a13fc.gif",
     "static/media/ChompItTower.png": "./static/media/ChompItTower.11ad178058d700c326b2.png",
     "static/media/FACE.png": "./static/media/FACE.ef8976634f79f813b537.png",
-    "static/media/Max Rodríguez Resume.pdf": "./static/media/Max Rodríguez Resume.496557a5590da31d321f.pdf",
+    "static/media/Max Rodríguez Resume.pdf": "./static/media/Max Rodríguez Resume.1799e5727c2dde0ff82f.pdf",
     "static/media/ZomBeeDefenseLogo.png": "./static/media/ZomBeeDefenseLogo.be7f475ec741e331dc42.png",
     "static/media/MaxBotLogo.png": "./static/media/MaxBotLogo.551fa7981bd0f4e23518.png",
     "static/media/Placelessness1.jpg": "./static/media/Placelessness1.5962b70a881bc9348842.jpg",
@@ -34,11 +35,11 @@
     "static/media/ContourSketchofStillLife.jpg": "./static/media/ContourSketchofStillLife.a42e2ebaa34cd603bcf9.jpg",
     "index.html": "./index.html",
     "main.54252b8b.css.map": "./static/css/main.54252b8b.css.map",
-    "main.b953b221.js.map": "./static/js/main.b953b221.js.map",
+    "main.ecb182f5.js.map": "./static/js/main.ecb182f5.js.map",
     "787.1dcf878b.chunk.js.map": "./static/js/787.1dcf878b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.54252b8b.css",
-    "static/js/main.b953b221.js"
+    "static/js/main.ecb182f5.js"
   ]
 }
